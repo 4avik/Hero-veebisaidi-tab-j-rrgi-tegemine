@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background-color: #e1e8fe;
+
+}
+
+.background {
+    height: 600px;
+}
+
+.background img {
+    height: 300px;
+    width: 100%;
+}
+
+.box {
+
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+}
+
+.heading {
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading p {
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.annual-plan {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    background-color: #c7c7c7;
+    margin-top: 16px;
+    border-radius: 15px;
+    display: flex;    
+}
+
+.annual-plan img {
+    justify-content: left;
+    display: flex;
+    margin-left: 25px;
+}
+
+.payment {
+    background-color: blue;
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    color: white;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    text-align: center;
+}
+ 
+.Cancel-order button {
+    bottom: 5%;
+    position: relative;
+    text-align: center;
+    text-decoration-color: chocolate;
+}
+
